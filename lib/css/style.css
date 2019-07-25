@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Butcherman&display=swap');
+
+h1 {
+    font-size: 23px;
+    background-color: aliceblue;
+    border-width: 17px;
+    border-color: rgba(53, 53, 53, 1);
+    border-radius: 13px;
+    font-family: Butcherman;
+    color: rgba(53, 53, 53, 1);
+}
