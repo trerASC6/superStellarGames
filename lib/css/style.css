@@ -1,11 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Butcherman&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+body {
+    background-color: rgba(53, 53, 53, 1);
+    text-align: center;
+}
 
 h1 {
-    font-size: 23px;
-    background-color: aliceblue;
-    border-width: 17px;
-    border-color: rgba(53, 53, 53, 1);
-    border-radius: 13px;
+    font-size: 17px;
+    background-color: rgb(19, 125, 224);
+    border: solid 3px rgb(236, 233, 233);
+    border-radius: 12px;
     font-family: Butcherman;
-    color: rgba(53, 53, 53, 1);
+    color: rgb(41, 41, 41);
+    width: 15%;
+    text-align: center;
 }
+a {
+    text-align: center;
+    font-family: Saira Stencil One;
+    color: azure;
+    font-size: 43px;
+    target-new: tab;
+}
+@media (max-width: 568px) {
+    a {
+        font-size: 150%;
+    }
+}
+@media (max-width: 568px) {
+    h1 {
+        flex-direction: row;
+        font-size: 7px;
+        width: 30%;
+        border: solid 9% rgb(236, 233, 233); 
+        border-radius: 13px;
+    }
+}
+.parent {
+    position: relative;
+}
+img {
+    position: relative;
+    text-align: center;
+    margin-top: 4%;
+    width: 95%;
+    height: 50%;
+}
+.rating {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    width: 15%;
+    height: 15%;
+    top: 90%;
+}
+.smashGif {
+    margin-top: 2%;
+}
+img.smash {
+    width: 50%;
+    height: 50%;
+}
+p {
+    color: white;
+    font-family: Saira Stencil One;
+    font-size: 100%;
+}
+p.buyNow {
+    color: white;
+    font-family: Saira Stencil One;
+    font-size: 100%;
+}
+
